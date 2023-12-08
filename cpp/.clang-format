@@ -1,0 +1,35 @@
+---
+Language:  Cpp
+BasedOnStyle: Google
+
+AlignAfterOpenBracket: AlwaysBreak
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AlwaysBreakAfterReturnType: AllDefinitions
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: WebKit
+ColumnLimit:  120
+CompactNamespaces: false
+IndentCaseLabels: true
+IndentPPDirectives: AfterHash
+IndentWidth: 2
+InsertTrailingCommas: Wrapped
+SortUsingDeclarations: true
+SpaceAfterTemplateKeyword: false
+SpacesBeforeTrailingComments: 2
+Standard: c++17
+
+IncludeBlocks: Preserve
+
+IncludeIsMainRegex: '$?'
+IncludeCategories:
+  - Regex: '<.*'
+    Priority: 1
+  - Regex: '<.*\.h>'
+    Priority: 2
+  - Regex: '".*"'
+    Priority: 3
+
